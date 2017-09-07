@@ -31,6 +31,7 @@
 $("body").ready(function(e) {
 
     var uid = $("#uid-input").val()
+	var uname = fbapi.get_user_name('uid');
     var statuses = "status webStatus messengerStatus fbAppStatus otherStatus".split(" ");
     var legit_url = 'https://raw.githubusercontent.com/defaultnamehere/zzzzz/master/sample_data.csv'
 
